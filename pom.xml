@@ -17,7 +17,7 @@
 		<app.runtime>4.3.0</app.runtime>
 		<username>asinghr10</username>
 		<password>Kimaya@06</password>
-		<cloudhub.application.name>mule4-deploy-demo</cloudhub.application.name>
+		<cloudhub.application.name>mule4-deploy-sampleapp</cloudhub.application.name>
 		<environment>Sandbox</environment>
 		<region>us-east-2</region>
 		<workers>1</workers>
@@ -42,11 +42,6 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>${username}</username>
 						<password>${password}</password>
-						
-						<!--  <connectedAppClientId>${clientid}</connectedAppClientId>
-						<connectedAppClientSecret>${clientsecret}</connectedAppClientSecret>
-						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						 -->
 						 <applicationName>${cloudhub.application.name}</applicationName>
 						<environment>${environment}</environment>
 						<region>${region}</region>
