@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>2ec1e48d-8355-4953-986d-d33b7dd0a421</groupId>
-	<artifactId>mule4-deploy-demo3</artifactId>
+	<artifactId>mule4-deploy-demo</artifactId>
     <version>1.0.0</version>
     <packaging>mule-application</packaging>
 
@@ -39,7 +39,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<classifier>mule-application-example</classifier>
+					<classifier>mule-application</classifier>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
