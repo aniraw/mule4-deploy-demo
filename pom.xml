@@ -8,6 +8,8 @@
     <version>1.0.0</version>
     <packaging>mule-application</packaging>
 
+
+
 	<name>mule4-deploy-demo</name>
 
     <properties>
