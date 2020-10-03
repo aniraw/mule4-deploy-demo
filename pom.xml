@@ -8,8 +8,7 @@
     <version>1.0.0</version>
     <packaging>mule-application</packaging>
 
-
-
+<!-- chnges intriduced as part of ftr2-->
 	<name>mule4-deploy-demo</name>
 
     <properties>
